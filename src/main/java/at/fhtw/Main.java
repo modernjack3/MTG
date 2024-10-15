@@ -1,3 +1,5 @@
+package at.fhtw;
+
 import at.fhtw.httpserver.server.Server;
 import at.fhtw.httpserver.utils.Router;
 import at.fhtw.sampleapp.service.echo.EchoService;
