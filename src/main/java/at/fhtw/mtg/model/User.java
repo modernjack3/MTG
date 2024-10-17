@@ -1,5 +1,7 @@
 package at.fhtw.mtg.model;
 
+import java.util.UUID;
+
 public class User {
 
     // User Data Section    -------------------------------------------------------------------------
@@ -25,8 +27,25 @@ public class User {
     private Integer money;      // How much money the user has to buy booster packs
     //----------------------------------------------------------------------------------------------
 
-    public User(int a){
-        //TODO: CONSTRUCTOR
+    public User(String username, String password){
+        this.username = username;
+        this.password = password;
+
+        this.userId = UUID.randomUUID().toString();
+
+        this.elo = 100.0;
+
+        this.totalGames = 0;
+        this.wins = 0;
+        this.losses = 0;
+
+        this.stack = new Stack();
+        this.deck = new Deck();
+        this.money = 5;
+    }
+
+    public String getPassword(){
+        return password;
     }
 
 

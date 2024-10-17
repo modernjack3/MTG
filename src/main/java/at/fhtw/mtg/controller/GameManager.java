@@ -4,8 +4,8 @@ import java.util.HashMap;
 
 public class GameManager {
 
-    private HashMap<String, String> users = new HashMap<>();
     private static final GameManager instance = new GameManager();
+    private final UserSessionManager uManager = new UserSessionManager();
 
     private GameManager(){
 
@@ -16,11 +16,11 @@ public class GameManager {
     }
 
     public synchronized boolean registerUser(String user, String password){
-        if(users.containsKey(user)){
-            return false;
-        }
-        users.put(user, password);
-        return true;
+        return uManager.registerUser(user,password);
+    }
+
+    public synchronized String loginUser(String user, String password){
+        return uManager.attemptLogin(user,password);
     }
 
     // Synchronised console print

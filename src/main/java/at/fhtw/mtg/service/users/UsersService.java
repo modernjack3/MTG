@@ -22,7 +22,7 @@ public class UsersService implements Service {
         if (request.getMethod() == Method.POST) {
             return registerUser(request);
         } else if (request.getMethod() == Method.GET) {
-            //return this.weatherController.getWeatherPerRepository();
+
         }
 
         return new Response(
@@ -44,7 +44,6 @@ public class UsersService implements Service {
             // Convert JSON string to Map
             Map<String, String> map = objectMapper.readValue(request.getBody(), new TypeReference<Map<String, String>>(){});
 
-            System.out.println("HERE");
             // Check if the Valid Fields are contained, if not throw exception -> catch block -> 400 Bad Request
             if(!(map.containsKey("Username") && map.containsKey("Password"))){
                 return new Response(

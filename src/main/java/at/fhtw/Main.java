@@ -2,9 +2,8 @@ package at.fhtw;
 
 import at.fhtw.httpserver.server.Server;
 import at.fhtw.httpserver.utils.Router;
+import at.fhtw.mtg.service.users.SessionService;
 import at.fhtw.mtg.service.users.UsersService;
-import at.fhtw.sampleapp.service.echo.EchoService;
-import at.fhtw.sampleapp.service.weather.WeatherService;
 
 import java.io.IOException;
 
@@ -21,9 +20,8 @@ public class Main {
     private static Router configureRouter()
     {
         Router router = new Router();
-        router.addService("/weather", new WeatherService());
-        router.addService("/echo", new EchoService());
         router.addService("/users", new UsersService());
+        router.addService("/sessions", new SessionService());
 
         return router;
     }
