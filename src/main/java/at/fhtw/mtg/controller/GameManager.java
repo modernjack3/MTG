@@ -23,6 +23,7 @@ public class GameManager {
         return true;
     }
 
+    // Synchronised console print
     public static synchronized void sPrint(String text){
         System.out.println(text);
     }
