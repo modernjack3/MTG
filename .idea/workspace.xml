@@ -5,43 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96b06c26-c3f5-42c7-aa12-8d2d830b9d39" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/httpserver/http/ContentType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/httpserver/http/HttpStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/httpserver/http/Method.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/httpserver/server/HeaderMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/httpserver/server/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/httpserver/server/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/httpserver/server/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/httpserver/server/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/httpserver/utils/RequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/httpserver/utils/RequestHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/httpserver/utils/Router.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/mtg/controller/GameManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/mtg/model/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/mtg/model/Deck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/mtg/model/Elemental.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/mtg/model/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/mtg/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/mtg/service/packages/PackagesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/mtg/service/users/UsersService$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/at/fhtw/mtg/service/users/UsersService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/fhtw/mtg/model/Package.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +81,7 @@
       <updated>1729004771814</updated>
       <workItem from="1729004773830" duration="8134000" />
       <workItem from="1729105088609" duration="4730000" />
-      <workItem from="1729186174327" duration="4217000" />
+      <workItem from="1729186174327" duration="5063000" />
     </task>
     <servers />
   </component>
